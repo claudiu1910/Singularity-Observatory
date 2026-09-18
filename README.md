@@ -14,6 +14,9 @@ real-time WebGL black hole simulations and GLSL shader interfaces, all ray-trace
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38bdf8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![WebGL](https://img.shields.io/badge/WebGL-GLSL-990000?logo=webgl&logoColor=white)](https://developer.mozilla.org/docs/Web/API/WebGL_API)
+[![License: MIT](https://img.shields.io/badge/License-MIT-f0a448)](LICENSE)
+
+### [🌌 Live demo →](https://singularity-observatory-site.vercel.app)
 
 <img src="docs/screenshots/hero.jpg" alt="Singularity hero section: a lensed black hole with a glowing accretion disk behind the headline 'See past the point of no return.'" width="100%" />
 
@@ -64,12 +67,17 @@ Then open **http://localhost:3000**. Edits you make to the files show up in the 
 | `npm start` | Serves the production build (run `build` first) |
 | `npm run lint` | Checks the code for common mistakes |
 
-## 🌍 Put it online
+## 🌍 Deploy your own copy
 
-The easiest way is [Vercel](https://vercel.com) (free for personal projects). Click the button,
-sign in with GitHub and it deploys automatically on every push:
+Want your own version online? This button creates a **copy of this repository in your GitHub
+account** and deploys it on [Vercel](https://vercel.com) (free for personal projects). Every push
+to your copy then redeploys automatically:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fclaudiu1910%2FSingularity-Observatory)
+
+Visitor analytics ([Vercel Web Analytics](https://vercel.com/docs/analytics)) and performance
+monitoring ([Speed Insights](https://vercel.com/docs/speed-insights)) are already wired into
+`app/layout.tsx`; switch them on in your Vercel project's **Analytics** and **Speed Insights** tabs.
 
 ## 🗂️ Project structure
 
@@ -129,3 +137,8 @@ spinning black holes do.
 [Paper Shaders](https://shaders.paper.design) ·
 [Lucide icons](https://lucide.dev) ·
 fonts: Geist and Instrument Serif
+
+## 📄 License
+
+[MIT](LICENSE): you're free to use, change and share this code, including commercially, as long
+as you keep the copyright notice.

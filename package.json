@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/claudiu1910/Singularity-Observatory.git"
   },
-  "homepage": "https://github.com/claudiu1910/Singularity-Observatory#readme",
+  "homepage": "https://singularity-observatory-site.vercel.app",
   "engines": {
     "node": ">=20.9.0"
   },
@@ -33,6 +33,7 @@
     "@base-ui/react": "^1.8.0",
     "@paper-design/shaders": "^0.0.81",
     "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.47.0",
@@ -52,5 +53,6 @@
     "eslint-config-next": "16.3.5",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "license": "MIT"
 }
