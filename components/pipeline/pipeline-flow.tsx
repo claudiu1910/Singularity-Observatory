@@ -407,7 +407,7 @@ export function PipelineFlow() {
           <h2 className="mt-1.5 text-xl font-medium">{detail.label}</h2>
           <p className="font-mono text-xs text-muted-foreground">{detail.sub}</p>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{detail.description}</p>
-          <dl className="mt-5 grid grid-cols-3 gap-3 border-t border-border/60 pt-4">
+          <dl className="mt-5 grid grid-cols-[1.5fr_1fr_1fr] gap-3 border-t border-border/60 pt-4 [&_dd]:whitespace-nowrap">
             <div>
               <dt className="text-[10px] text-muted-foreground">Throughput</dt>
               <dd className="mt-0.5 font-mono text-xs">{detail.throughput}</dd>

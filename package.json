@@ -2,6 +2,27 @@
   "name": "singularity-observatory",
   "version": "0.1.0",
   "private": true,
+  "description": "Cinematic landing page for a fictional deep-space observatory, featuring a black hole ray-traced in real time with WebGL.",
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "shadcn-ui",
+    "webgl",
+    "glsl",
+    "black-hole",
+    "astronomy",
+    "ray-tracing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiu1910/Singularity-Observatory.git"
+  },
+  "homepage": "https://github.com/claudiu1910/Singularity-Observatory#readme",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
